@@ -96,9 +96,9 @@ void saveSVG() {
 }
 
 void generateLetterA() {
-  resetGrid(); // Reset siatki przed generowaniem
+  resetGrid(); 
 
-  // Losowy wybór typu litery
+ 
   boolean isSpiky = random(1) > 0.5;
 
   if (isSpiky) {
