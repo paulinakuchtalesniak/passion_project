@@ -66,7 +66,7 @@ void drawGridWithSubdivisions() {
 
   for (int i = 0; i < cols; i++) {
     for (int j = 0; j < rows; j++) {
-      if (grid[i][j]) { // Tylko dla komórek litery A
+      if (grid[i][j]) { 
         float x = i * cellWidth;
         float y = j * cellHeight;
 
@@ -97,7 +97,7 @@ void saveSVG() {
 
   for (int i = 0; i < cols; i++) {
     for (int j = 0; j < rows; j++) {
-      if (grid[i][j]) { // Tylko dla komórek litery A
+      if (grid[i][j]) { 
         float x = i * cellWidth;
         float y = j * cellHeight;
 
